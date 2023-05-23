@@ -1,0 +1,149 @@
+.homepageContainer {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.homePageMainSize {
+  width: 90%;
+  display: flex;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.LeftHomeSide {
+  width: 70%;
+  box-sizing: border-box;
+  border-right: 1px solid black;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.RightHomeSide {
+  width: 30%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.RightHomeSide > h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.NewsShortcut {
+  padding: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.close-button {
+  position: absolute;
+  top: 2px;
+  color: red;
+  right: 4px;
+  transition: 0.2s;
+}
+.close-button:active {
+  transform: translateY(3px);
+}
+.NewsShortcut:hover {
+  background-color: rgb(234, 234, 234);
+}
+.NewsShortcut > div {
+  box-sizing: border-box;
+  padding: 4px;
+}
+.NewsShortcut > div > p {
+  margin-top: 2px;
+}
+.NewsShortcut > img {
+  width: 60px;
+  height: 60px;
+}
+.LeftHomeSide {
+  position: relative;
+  box-sizing: border-box;
+}
+.LeftHomeSide > i {
+  position: absolute;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+.ArticleContent {
+  position: relative;
+}
+.ArticleContent > button {
+  position: absolute;
+  right: -10px;
+}
+.ArticleContent > h2 {
+  text-align: center;
+}
+.authorInfo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.authorInfo > img {
+  width: 50px;
+}
+.authorInfo > div {
+  padding: 10px;
+}
+.created,
+.updated {
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+}
+.maincontentarticle {
+  margin-top: 20px;
+  line-height: 22px;
+}
+.fa-comment {
+  position: absolute;
+  right: 10px;
+  top: 70px;
+}
+.viewcmtbutton {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  font-weight: bolder;
+  color: #212529;
+  background-color: #319ace;
+  border-color: #ffc107;
+  margin-right: 10px;
+  font-weight: 400;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.viewcmtbutton:hover {
+  background-color: #1d85b9;
+}
+.addcmnt {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.addcmnt:hover {
+  color: #e7ae04;
+}
